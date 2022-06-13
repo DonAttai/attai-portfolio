@@ -1,5 +1,5 @@
 import computer from "../assets/computer.jpg";
-import goal from "../assets/goal.png";
+import goal from "../assets/goal.svg";
 import todo from "../assets/todo.jpg";
 import landingPage from "../assets/landing-page.png";
 import book from "../assets/book.jpg";
