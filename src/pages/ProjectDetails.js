@@ -8,11 +8,12 @@ function ProjectDetails() {
   const project = ProjectList[id];
   const github = "https://github.com/DonAttai?tab=repositories";
   return (
-    <div className="project mt-5">
-      <h1>{project.name}</h1>
-      <img src={project.image} alt="" />
+    <div className="project mx-auto">
+      <h1 className="text-center">{project.name}</h1>
+      <img src={project.image} className="img-fluid" alt="" />
       <p>
-        <span className="fw-bold">Technologies</span>: {project.technologies}
+        <span className="fw-bold text-center">Technologies</span>:{" "}
+        {project.technologies}
       </p>
       <span className="">
         <a href={project.url} target="_blank" rel="noreferrer" className="mx-2">
@@ -23,7 +24,6 @@ function ProjectDetails() {
           target="_blank"
           rel="noreferrer"
           className="mx-2 fw-bold"
-          id="github"
         >
           <GitHub className="fs-4" />
         </a>

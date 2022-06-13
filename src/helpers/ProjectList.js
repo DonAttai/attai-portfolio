@@ -1,8 +1,8 @@
-import computer from "../assets/computer.jpg";
 import goal from "../assets/goal.svg";
 import todo from "../assets/todo.jpg";
 import landingPage from "../assets/landing-page.png";
 import book from "../assets/book.jpg";
+import expense from "../assets/expense.jpg";
 
 export const ProjectList = [
   {
@@ -13,7 +13,7 @@ export const ProjectList = [
   },
   {
     name: "Expense Tracker App",
-    image: computer,
+    image: expense,
     technologies: "React.js, Bootstrap, Express.js,MongoDB",
     url: "https://attai-expense-tracker.netlify.app/",
   },
