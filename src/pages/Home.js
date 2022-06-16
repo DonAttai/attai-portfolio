@@ -2,7 +2,7 @@ import "../styles/Home.css";
 import { ProgressBar } from "react-bootstrap";
 
 function Home() {
-  const javascript = 70;
+  const javascript = 75;
   const python = 55;
 
   return (
