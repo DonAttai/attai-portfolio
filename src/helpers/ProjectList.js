@@ -3,6 +3,7 @@ import todo from "../assets/todo.jpg";
 import landingPage from "../assets/landing-page.png";
 import book from "../assets/book.jpg";
 import expense from "../assets/expense.jpg";
+import lister from "../assets/expense.jpg";
 
 export const ProjectList = [
   {
@@ -34,5 +35,11 @@ export const ProjectList = [
     image: book,
     technologies: "HTML, CSS, JavaScript",
     url: "https://donattai.github.io/book-list-app/",
+  },
+  {
+    name: "Item Lister",
+    image: lister,
+    technologies: "HTML, CSS, JavaScript",
+    url: "https://donattai.github.io/item-lister/",
   },
 ];

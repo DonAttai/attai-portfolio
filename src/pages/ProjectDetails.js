@@ -10,15 +10,16 @@ function ProjectDetails() {
   return (
     <div className="project mx-auto">
       <h1 className="text-center">{project.name}</h1>
-      <img src={project.image} className="img-fluid" alt="" />
+      <img src={project.image} className="img-fluid mb-3" alt="" />
       <p>
         <span className="fw-bold text-center">Technologies</span>:{" "}
         {project.technologies}
       </p>
       <span className="">
         <a href={project.url} target="_blank" rel="noreferrer" className="mx-2">
-          View project
+          visit site
         </a>
+
         <a
           href={github}
           target="_blank"
