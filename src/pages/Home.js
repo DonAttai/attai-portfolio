@@ -18,7 +18,9 @@ function Home() {
         <ul className="list">
           <li className="item">
             <h2>Frontend</h2>
-            <span>CSS, HTML, React.js, Redux, Bootstrap, TailwindCSS</span>
+            <span>
+              CSS, HTML, React.js, Next.js, Remix, Redux, Bootstrap, TailwindCSS
+            </span>
           </li>
           <li className="item">
             <h2>Backend</h2>
