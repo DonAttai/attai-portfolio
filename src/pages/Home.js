@@ -24,9 +24,7 @@ function Home() {
           </li>
           <li className="item">
             <h2>Backend</h2>
-            <span>
-              Node.js, Express.js, Flask, Django, MongoDb, MySQL, Heroku,
-            </span>
+            <span>Node.js, Express.js, MongoDb, MySQL, Heroku,</span>
           </li>
           <li className="item mt-3">
             <h3>Languages</h3>
