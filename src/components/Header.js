@@ -20,7 +20,6 @@ function Header() {
         <Link to="/">Home</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>
-        <Link to="/contact">Contact</Link>
       </div>
     </nav>
   );

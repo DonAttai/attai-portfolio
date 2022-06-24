@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList";
 import "../styles/ProjectDetails.css";
-import GitHub from "@mui/icons-material/GitHub";
+// import GitHub from "@mui/icons-material/GitHub";
 
 function ProjectDetails() {
   const { id } = useParams();
@@ -17,16 +17,17 @@ function ProjectDetails() {
       </p>
       <span className="">
         <a href={project.url} target="_blank" rel="noreferrer" className="mx-2">
-          visit site
+          Demo
         </a>
 
         <a
           href={github}
           target="_blank"
           rel="noreferrer"
-          className="mx-2 fw-bold"
+          className="mx-2 github-img"
         >
-          <GitHub className="fs-4" />
+          {/* <GitHub /> */}
+          Github
         </a>
       </span>
     </div>

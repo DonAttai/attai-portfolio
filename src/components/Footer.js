@@ -1,7 +1,5 @@
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
 import "../styles/Footer.css";
-import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,9 +19,6 @@ function Footer() {
         >
           <FaGithub />
         </a>
-        <Link to="/contact">
-          <AiOutlineMail />
-        </Link>
       </div>
       <p> &copy; 2022 John Attai Yinusa</p>
     </footer>

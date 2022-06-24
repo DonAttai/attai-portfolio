@@ -33,13 +33,13 @@ export const ProjectList = [
   {
     name: "BookList App",
     image: book,
-    technologies: "HTML, CSS, JavaScript",
+    technologies: "HTML, Boostrap, JavaScript",
     url: "https://donattai.github.io/book-list-app/",
   },
   {
     name: "Item Lister",
     image: lister,
-    technologies: "HTML, CSS, JavaScript",
+    technologies: "HTML, Bootstrap, JavaScript",
     url: "https://donattai.github.io/item-lister/",
   },
 ];

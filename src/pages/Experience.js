@@ -9,7 +9,7 @@ import Work from "@mui/icons-material/Work";
 
 function Experience() {
   return (
-    <div className="experience mx-auto">
+    <div className="mx-auto">
       <VerticalTimeline lineColor="#202a44">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
