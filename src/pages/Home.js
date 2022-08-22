@@ -17,7 +17,7 @@ function Home() {
         {/* <img src={attai} alt="" className="image" /> */}
         <h4 className="mb-5">Hello, I am John Attai</h4>
         <div className="prompt">
-          <p>...a software developer with an endless passion for learning</p>
+          <p>...a software developer with an endless passion for learning.</p>
         </div>
       </div>
       <section className="skills">
